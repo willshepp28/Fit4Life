@@ -11,7 +11,6 @@ const express = require('express'),
   flash = require('connect-flash'),
   path = require('path'),
   morgan = require('morgan'),
-  bcrypt = require('bcrypt'),
   handlebars = require('express-handlebars'),
   index = require('./routes/index'),
   port = process.env.PORT || 8000;
